@@ -21,7 +21,7 @@ syn keyword salve_block_id file directory manifest
 hi link salve_block_id Type
 
 " attrs are only in blocks
-syn keyword salve_attribute_id action source target contained
+syn keyword salve_attribute_id action source target user group mode contained
 hi link salve_attribute_id Identifier
 
 syn keyword salve_attribute_val create copy contained
