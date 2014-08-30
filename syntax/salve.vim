@@ -12,7 +12,7 @@ let s:save_cpo= &cpo
 " ignore case, block delimiters are keywords
 syn case ignore 
 setlocal iskeyword={,}
-setlocal comments=#
+setlocal comments="#"
 
 " highlight block IDs as types
 syn match block_identifier "file"
